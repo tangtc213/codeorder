@@ -1,0 +1,41 @@
+.manager-header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(253, 208, 0);
+    .logo {
+        padding: .3rem;
+        margin-left: .5rem;
+        line-height: 100%;
+        font-size: 0.8rem;
+        line-height: 2rem;
+        // text-align: center;
+        display: inline-block;
+        color: #fff;
+        // background-color: lime;
+        white-space: nowrap;
+    }
+    .header-menu {
+        width: 80vw;
+        margin-left: 1rem;
+        color: #fff !important;
+    }
+    .ant-menu-horizontal > .ant-menu-item a {
+        color: #fff;
+    }
+    .ant-menu-horizontal > .ant-menu-item-active a {
+        color: #000;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .manager-header {
+        .logo {
+            font-size: 1.2rem;
+            margin-left: 2rem
+        }
+        .header-menu {
+            margin-left: 15vw;
+            width: auto;
+        }
+    }
+}

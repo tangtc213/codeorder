@@ -1,0 +1,133 @@
+.orderSuccess {
+    // position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(245,245,245);
+    .orderInfo-body {
+        width: 90vw;
+        margin: 1rem auto;
+        overflow: hidden;
+        background-color: #fff;
+        border-radius: .4rem;
+            .other-item {
+                padding: 1rem 1rem;
+                margin: 1rem 0;
+                .other-item-left {
+                    float: left;
+                }
+                .other-item-right {
+                    float: right;
+                    .takeout-btn {
+                        width: 5.25rem;
+                        height: 2.25rem;
+                        background-color: #fff;
+                        border: 1px solid #ddd;
+                        margin-left: 1rem;
+                        padding: .5rem;
+                        border-radius: .3rem;
+                    }
+                    .btn-active {
+                        background-color: rgb(253,208,0);
+                        color: #fff;
+                        border-color: rgb(253,208,0);
+                    }
+                    .reserved-phone {
+                        width: 5.25rem;
+                        height: 2.25rem;
+                        background-color: #fff;
+                        border: 1px solid  rgb(253,208,0);
+                        color: rgb(253,208,0);
+                        margin-left: 1rem;
+                        padding: .5rem;
+                        border-radius: .3rem;
+                    }
+                    .select-eat-time {
+                        width: 5.25rem;
+                        height: 2.25rem;
+                        background-color: #fff;
+                        margin-left: 1rem;
+                        padding: .5rem;
+                        border-radius: .3rem;
+                        color: rgb(253, 208, 0);
+                    }
+                }
+            }
+
+            .coupons {
+                margin: 1rem;
+                display: flex;
+                justify-content: space-between;
+                // .coupons-left {
+
+                // }
+                .coupons-right {
+                    color: #777;
+                }
+            }
+
+            .orderItem {
+                height: 4rem;
+                position: relative;
+                margin: .6rem .8rem 0 .8rem;
+                width: 100%;
+                font-size: 0.8rem;
+                img {
+                    display: block;
+                    float: left;
+                    width: 4rem;
+                    height: 4rem;
+                    margin-right: .5rem;
+                }
+                .orderItem-name {
+                    font-size: 1rem;
+                    font-weight: 600;
+                }
+                .orderItem-price {
+                    position: absolute;
+                    right: 2rem;
+                    bottom: 0rem;
+                    font-weight: 500;
+                }
+            }
+
+            .total-price {
+                width: 100%;
+                .total-sum {
+                    float: right;
+                    margin-right: 1rem;
+                    font-size: 1rem;
+                    strong {
+                        font-size: 1.5rem;
+                    }
+                }
+            }
+    }
+    .order-submit {
+        position: fixed;
+        bottom: 0;
+        width: 100vw;
+        padding: .8rem 1rem;
+        background-color: #fff;
+        .order-submit-left {
+            float: left;
+            font-size: .9rem;
+            strong {
+                font-size: 1.4rem;
+            }
+        }
+        .order-submit-right {
+            float: right;
+            .order-sumbit-button {
+                display: inline-block;
+                margin-left: .5rem;
+                width: 7rem;
+                height: 2.4rem;
+                line-height: 2.4rem;
+                background-color: rgb(253, 208, 0);
+                color: #fff;
+                text-align: center;
+                border-radius: 999px;
+            }
+        }
+    }
+}

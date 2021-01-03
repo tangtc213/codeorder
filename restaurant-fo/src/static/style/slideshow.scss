@@ -1,0 +1,23 @@
+.carousel {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+
+    .slick-dots li {
+        width: 0.5rem;
+    }
+    .slick-dots li.slick-active {
+        width: 1rem;
+    }
+    h3 {
+        width: 100%;
+        height: 100%;
+        color: #fff;
+        vertical-align: middle;
+        text-align: center;
+        background-color: #364f79;
+        border-radius: 15px;
+        overflow: hidden;
+
+    }
+}

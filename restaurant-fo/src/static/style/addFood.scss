@@ -1,0 +1,11 @@
+.add-food {
+    width: 90vw;
+    margin: 1rem auto;
+    // background-color: lime;
+}
+
+@media screen and (min-width: 720px) {
+    .add-food {
+        width: 600px;
+    }
+}

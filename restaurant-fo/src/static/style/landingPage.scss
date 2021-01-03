@@ -1,0 +1,63 @@
+
+.landingPage {
+    background-color: #fff;
+}
+.landingPage-content {
+    padding-top: 1rem;
+    z-index: 9;
+    width: 100%;
+    background-color: rgb(245, 245, 245);
+    .user-select {
+        margin: 0 1rem;
+        border-radius: 1rem;
+        padding: 1rem;
+        // border: 2px solid;
+        background-color: #fff;
+        text-align: center;
+        .active  {
+             color:#fff;
+             background-color:  rgb(253,208,0);
+             border: none;
+        }
+
+
+        .custom-count li {
+            display: inline-block;
+            padding: 5px 10px;
+            border: 2px solid #ddd;
+            border-radius: 0.3rem;
+            margin: 5px;
+        }
+        .start-order-btn {
+            margin-top: -1.5rem;
+            padding: 0.3rem;
+            font-size: 1.2rem;
+            display: inline-block;
+            width: 10rem;
+            border-radius: 8px;
+            background-color: rgb(253,208,0);
+        }
+    }
+    .new-info {
+        padding: .5rem 1rem;
+        font-weight: 500;
+        font-size: 1.1rem;
+    }
+    .new-info-list {
+        padding: 0rem 0.5rem;
+        img {
+            width: 100%;
+            height: auto;
+        }
+
+    }
+}
+
+.box-shadow {
+    box-shadow:  -1px 1px 0px #ababab,
+             1px -1px 0px #d9d9d9;
+}
+
+// .landingPage-swiper {
+//     padding: 1rem 1rem 0 1rem;
+// }

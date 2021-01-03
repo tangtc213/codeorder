@@ -1,0 +1,217 @@
+.foodCart {
+    .foodCart-foodlist {
+        position: relative;
+        width: 100vw;
+        // overflow: hidden;
+        .foodCart-foodlist-left {
+            position: absolute;
+            left: 0;
+            color: #777;
+            box-sizing: border-box;
+            background-color: rgb(245,245,245);
+            width: 6rem;
+            text-align: center;
+            .foodCart-categoryList {
+                width: 6rem;
+                height: 3rem;
+                line-height: 3rem;
+                text-align: center;
+                background-color: rgb(245,245,245);
+            }
+            .categoryActive {
+                background-color: #fff;
+                color: rgb(253,208,0);
+                font-weight: 600;
+            }
+        }
+        .foodCart-foodlist-right {
+            position: absolute;
+            top: 0;
+            left: 6.25rem;
+            width: calc(100vw - 6.25rem);
+            .slideshow {
+                box-sizing: border-box;
+                padding: 0.5rem;
+                width: 16rem;
+                height: 10rem;
+                // background-color: lime;
+            }
+        }
+        .foodCart-foodlist-category {
+            color: #777;
+        }
+        .cart-addblank {
+            height: 4rem;
+            width: 100%;
+        }
+    }
+}
+
+// 食物列表
+.foodMenu {
+    position: relative;
+    width: 100%;
+    height: 8rem;
+    padding: 1rem .5rem;
+    // box-sizing: border-box;
+    .foodMenu-img {
+        width: 6rem;
+        height: 6rem;
+        float: left;
+        margin-right: 0.6rem;
+    }
+    .foodMenu-name {
+        font-size: 1rem;
+        font-weight: 600;
+    }
+    .foodMenu-desc {
+        height: 2.4rem;
+        overflow: hidden;
+        font-size: 0.7rem;
+        color: #bbb;
+        margin-bottom: .2rem;
+    }
+    .foodMenu-priceandadd {
+        width: 9rem;
+        // background-color: lime;s
+        position: absolute;
+        bottom: 1rem;
+        left: 7rem;
+        .foodMenu-price {
+            font-size: 1.2rem;
+            font-weight: 600;
+            float: left;
+            bottom: 0;
+        }
+        .foodMenu-btn {
+            position: absolute;
+            right: 0;
+            i {
+                margin: 0.3rem;
+                color:  #fff;
+                display: inline-block;
+                width: 1.5rem;
+                height: 1.5rem;
+                line-height: 1.5rem;
+                border-radius: 999px;
+                background-color:  rgb(253, 208, 0);
+                text-align: center;
+                font-size: 1.3rem;
+                // border: 5px solid;
+            }
+            .foodMenu-btn-dec {
+                border: 0.1rem solid rgb(253, 208, 0);
+                background-color: #fff;
+                color: rgb(253, 208, 0)
+            }
+        }
+
+    }
+}
+
+// 购物车状态
+.cartStatus {
+    z-index: 2;
+    display: flex;
+    position: fixed;
+    height: 4rem;
+    margin: 0 auto;
+    bottom: 1.2rem;
+    left: 3%;
+    right: 3%;
+    color: #fff;
+    line-height: 4rem;
+    .cartStatus-left {
+        background-color: rgb(50,50,50);
+        border-radius: 999px 0 0 999px;
+        display: flex;
+        flex: 1;
+        .cartStatus-symbol {
+            margin-left: 1rem;
+            width: 4rem;
+        }
+        .cartStatus-price {
+            width: auto;
+            flex: 1;
+            font-size: 1.5rem;
+            font-weight: 600;
+            span {
+                font-size: 0.9rem;
+            }
+        }
+    }
+    .cartStatus-placeOrder {
+        width: 4.6rem;
+        text-align: center;
+        font-size: 1rem;
+        background-color: rgb(253, 208, 0);
+        border-radius: 0 100% 100% 0;
+    }
+}
+
+.cart-drawer {
+    z-index: 1;
+    // box-sizing: border-box;
+    .ant-drawer-wrapper-body {
+        height: 100%;
+        .ant-drawer-body {
+            margin: 0rem 1rem 4rem 1rem;
+            padding: 0;
+        }
+        .ant-drawer-header {
+            padding-bottom: 0;
+        }
+        .cart-drawer-title {
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+
+    .cartMenu {
+        position: relative;
+        width: 100%;
+        height: 4rem;
+        padding: 0.7rem;
+        display: flex;
+        .cartMenu-name {
+            font-size: 1rem;
+            font-weight: 600;
+        }
+        .cartMenu-desc {
+            font-size: 0.7rem;
+            color: #bbb;
+            margin-bottom: 1.1rem;
+        }
+        .cartMenu-price {
+            margin-left: 1.3rem;
+            flex: 1;
+            display: inline-block;
+            font-weight: 400;
+            bottom: 0;
+        }
+        .cartMenu-btn {
+            position: absolute;
+            bottom: 1.4rem;
+            right: 1rem;
+            display: flex;
+            i {
+                margin: 0.3rem;
+                color:  #fff;
+                display: inline-block;
+                width: 1.5rem;
+                height: 1.5rem;
+                line-height: 1.5rem;
+                border-radius: 999px;
+                background-color:  rgb(253, 208, 0);
+                text-align: center;
+                font-size: 1.3rem;
+                // border: 5px solid;
+            }
+            .cartMenu-btn-dec {
+                border: 0.1rem solid rgb(253, 208, 0);
+                background-color: #fff;
+                color: rgb(253, 208, 0)
+            }
+        }
+    }
+}

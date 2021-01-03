@@ -1,0 +1,20 @@
+.order-row {
+    .ant-btn:focus {
+        border-color: rgb(253,208,0);
+        color: rgb(253,208,0);
+    }
+    .order-details {
+        display: flex;
+        .order-details-item {
+            width: 100%;
+
+        }
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .order-row {
+        width: 80vw;
+        margin: 2rem auto;
+    }
+  }

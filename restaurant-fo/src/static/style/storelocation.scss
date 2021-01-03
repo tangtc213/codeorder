@@ -1,0 +1,27 @@
+.storelocation {
+    position: relative;
+    margin-top: 3.4rem;
+    width: 100vw;
+    height: 5rem;
+    padding: 1rem 0;
+    border-bottom: 1px solid #ccc;
+    background-color: #fff;
+    .store-name {
+        margin-left: 1rem;
+        font-size: 1.2rem;
+        font-weight: 600;
+    }
+    .store-location {
+        margin-left: 1rem;
+        font-size: 1rem;
+        color: #aaa;
+    }
+    .store-deskInfo {
+        font-size: 1.2rem;
+        font-weight: 600;
+        position: absolute;
+        right: 1rem;
+        top: 1.5rem;
+        // float: right;
+    }
+}

@@ -1,0 +1,21 @@
+.header {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100vw;
+    height: 4rem;
+    background-color: rgb(253,208,0);
+    text-align: center;
+    line-height: 4rem;
+    .header-text {
+        font-size: 1.7rem;
+        float: left;
+        margin-left: 0.7rem
+    }
+    span {
+        font-size: 1.3rem;
+        vertical-align: bottom;
+    }
+}
+
+
